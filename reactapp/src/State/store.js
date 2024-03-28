@@ -5,11 +5,15 @@ import { configureStore } from '@reduxjs/toolkit';
 //import {thunk} from "redux-thunk"; 
 import VaccineReducer from "./Vaccine/vaccineReducer";
 import HospitalReducer from "./Hospital/hospitalReducer";
-
+import PatientReducer from "./Patient/patientReducer";
+import AppointmentReducer from "./Appointment/appointmentReducer";
 
 const rootReducer = combineReducers({
     VaccineReducer,
-    HospitalReducer
+    HospitalReducer,
+    PatientReducer,
+    AppointmentReducer
+
 })
 
 

@@ -4,11 +4,10 @@ const INITIAL_STATE = {
     
     hospital: {
         name: "Hospital",
-        Address: "Address",
+        address: "Address",
         type: "Government or Private",
         charges: 0
-    }
-    ,
+    },
     hospitals:[]
 }
 export default function HospitalReducer(state=INITIAL_STATE, action)

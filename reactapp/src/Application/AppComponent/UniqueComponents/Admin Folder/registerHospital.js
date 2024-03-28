@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { saveHospital } from "../../../State/Hospital/hospitalAction";
+import { saveHospital } from "../../../../State/Hospital/hospitalAction";
 
 let RegisterHospital = () =>{
     const hospital = useSelector((state) => state.HospitalReducer.hospital)
     const dispatch = useDispatch();
 
     const [name, setName] = useState(hospital.name)
-    const [address, setAddress] = useState(hospital.Address)
+    const [address, setAddress] = useState(hospital.address)
     const [type, setType] = useState(hospital.type)
     const [charges, setCharges] = useState(hospital.charges)
 
@@ -34,7 +34,7 @@ let RegisterHospital = () =>{
 
                 <div className="col-md-12">
                     <strong>Hospital Address</strong>
-                    <input type="text" className="form-control col-md-6" value={address} maxLength={25}
+                    <input type="text" className="form-control col-md-6" value={address} maxLength={250}
                         placeholder="Address" onChange={(e)=>setAddress(e.target.value)}/>
                 </div>
 

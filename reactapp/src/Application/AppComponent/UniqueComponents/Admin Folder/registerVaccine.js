@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import {saveVaccine} from "../../../State/Vaccine/vaccineAction"
+import {saveVaccine} from "../../../../State/Vaccine/vaccineAction"
 
 let RegisterVaccine = () => {
     const vaccine = useSelector((state) => state.VaccineReducer.vaccine)
