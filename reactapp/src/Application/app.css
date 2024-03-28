@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+ }
+
+  body {
+    margin: 0; }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block; }
+
+
+
+.footer{
+color: #fff;
+font-size: 13px;
+font-weight: 400;
+letter-spacing: 1.4px;
+padding: 35px 0;
+text-transform: uppercase;
+background-color: #126437;
+width: auto;
+height: 75px;
+text-align: center;
+border-top: 2px solid orange;
+border-bottom: 5px solid rgb(126, 128, 0);
+  }
+
+
+.header{
+  border-bottom: 2px solid #126437;
+}
+
+
+.button,
+[type=submit], .dropimage {
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  padding: 0.3em 0.9em;
+  vertical-align: middle;
+  background: #126437;
+  color: #ffffff;
+  border: 0;
+  border-radius: 0.2em;
+  width: auto;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+
+  .btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color: #126437 !important;
+}
+
+.btn-primary:hover{
+  background-color: #052a16 !important;
+}
